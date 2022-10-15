@@ -1,0 +1,226 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.oderNowDiv {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.oderButtonA {
+  text-decoration: none;
+  position: absolute;
+  top: 1022px;
+  left: 53px;
+  border-radius: 20px;
+  background-color: var(--color-red);
+  box-shadow: 0 17px 23px -1px rgba(255, 18, 18, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 22px 46px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  opacity: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.oderButtonA.animate {
+  animation: 1s ease 5s 1 normal forwards slide-in-top;
+}
+.imgIcon {
+  top: 166.56px;
+  left: 758px;
+  width: 705px;
+  height: 1029.44px;
+  object-fit: cover;
+  opacity: 0;
+}
+.imgIcon.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.b,
+.imgIcon,
+.vectorIcon {
+  position: absolute;
+}
+.b {
+  width: calc(100% - 29px);
+  top: 0;
+  right: 18px;
+  left: 11px;
+  display: inline-block;
+}
+.vectorIcon {
+  width: calc(100% - -0.46px);
+  top: 25px;
+  right: -0.33px;
+  left: -0.13px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 16.94px;
+}
+.cutTextA {
+  text-decoration: none;
+  position: absolute;
+  width: calc(100% - 1248px);
+  top: 917px;
+  right: 956px;
+  left: 292px;
+  height: 58px;
+  opacity: 0;
+  font-size: 46px;
+  color: var(--color-gray);
+  font-family: var(--font-gelasio);
+}
+.cutTextA.animate {
+  animation: 1s ease 4s 1 normal forwards slide-in-top;
+}
+.slashSpan {
+  color: var(--color-orange);
+}
+.burgerSlashDiv {
+  position: absolute;
+  top: 473px;
+  left: calc(50% - 667px);
+  font-size: 128px;
+  font-family: var(--font-galada);
+  display: inline-block;
+  opacity: 0;
+}
+.burgerSlashDiv.animate {
+  animation: 1s ease 2s 1 normal forwards slide-in-top;
+}
+.ourNEWAllNaturalWingsAre {
+  top: 668px;
+  left: calc(50% - 664px);
+  font-size: 30px;
+  text-align: justify;
+  width: 729px;
+  opacity: 0;
+}
+.ourNEWAllNaturalWingsAre.animate {
+  animation: 1s ease 3s 1 normal forwards slide-in-top;
+}
+.b1,
+.burgerSlashDiv1,
+.ourNEWAllNaturalWingsAre {
+  position: absolute;
+  display: inline-block;
+}
+.b1 {
+  width: calc(100% - 1239px);
+  top: 898px;
+  right: 1186px;
+  left: 53px;
+  font-family: var(--font-gelasio);
+  color: var(--color-orange);
+  opacity: 0;
+}
+.b1.animate {
+  animation: 1s ease 4s 1 normal forwards slide-in-top;
+}
+.burgerSlashDiv1 {
+  top: 0;
+  left: 0;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 72px;
+  left: 4.46px;
+  width: 216.64px;
+  height: 21.55px;
+}
+.logoDiv,
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 226px;
+  height: 92.71px;
+}
+.vectorIcon2 {
+  top: 47.5px;
+  left: -0.15px;
+  width: 79.27px;
+  height: 8.44px;
+}
+.homeDiv {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  display: inline-block;
+}
+.homeA {
+  text-decoration: none;
+  position: relative;
+  width: 79px;
+  height: 55.46px;
+  flex-shrink: 0;
+  color: var(--color-orange);
+}
+.aboutUs,
+.menuDiv1 {
+  position: relative;
+  display: inline-block;
+}
+.aboutUs {
+  text-decoration: none;
+  color: inherit;
+}
+.linkA,
+.menuDiv {
+  position: absolute;
+}
+.linkA {
+  text-decoration: none;
+  top: 18.62px;
+  left: calc(50% - 60px);
+  width: 727px;
+  height: 55.46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+}
+.menuDiv {
+  top: 54px;
+  left: 56px;
+  width: 1334px;
+  height: 92.71px;
+  font-size: 45px;
+  font-family: var(--font-galada);
+}
+.burgerDiv {
+  position: absolute;
+  top: 423px;
+  left: calc(50% - 667px);
+  font-family: var(--font-galdeano);
+  color: var(--color-red);
+  display: inline-block;
+  opacity: 0;
+}
+.burgerDiv.animate {
+  animation: 1s ease 1s 1 normal forwards slide-in-top;
+}
+.frameDiv {
+  position: relative;
+  border-radius: 45px;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1241px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
